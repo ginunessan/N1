@@ -71,9 +71,9 @@ public class Deuses {
 	public double vantagem(Deuses alvo){
 		double m = 0.5;
 		double[][] vantagem = { {1, 1, 1},
-								{2, 1, m},
-								{1, 2, 1},
-							};
+					{2, 1, m},
+					{1, 2, 1},
+	};
 		int pkm1 = associaTipo(tipo), pkm2 = associaTipo(alvo.getTipo());
 		return vantagem[pkm1][pkm2];
 	}
